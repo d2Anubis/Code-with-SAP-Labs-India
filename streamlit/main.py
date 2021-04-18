@@ -54,7 +54,7 @@ model_names = ['KNN', 'SVM', 'Logistic Regression', 'Decision Tree', 'Random For
 #left side sidebar tab
 usage = st.sidebar.selectbox('Select Usages', options=['Numerical Data', 'Image Data', 'Text Data'], index=1, key='usage')
 sidebar_button = st.sidebar.button('Render', key='render')
-st.sidebar.header("Team : d2Anubis")
+st.sidebar.header("Team : ACES")
 st.sidebar.markdown("""
 - Niharika 
 - Yashwant""")
